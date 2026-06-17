@@ -12,6 +12,8 @@ O projeto foi dividido em duas versões:
 
 - **Versão 1:** primeira implementação, feita sem vetores.
 - **Versão 2:** evolução do programa, usando vetores para organizar os jogos e validação para impedir textos e números negativos nos palpites.
+- **Versão 3:** Implementação de classes (Jogo, Apostador), uso de alocação dinâmica (new[]/delete[]), menu interativo e ordenação de ranking via algoritmo de busca.
+
 
 ## Pontuação
 
@@ -29,6 +31,8 @@ O projeto foi dividido em duas versões:
 
 - C++
 - Biblioteca padrão do C++
+- Paradigma Orientado a Objetos (POO)
+- Gerenciamento de memória (Heap)
 
 ## Estrutura do projeto
 
@@ -40,12 +44,14 @@ modulo-8/
 |   |-- bolaocopa2.cpp
 |   `-- output/
 |       `-- bolaocopa2.exe
-|-- output/
+|-- bolaoversao3/
+|   |-- bolaocopa3.cpp
 `-- README.md
 ```
 
 - `bolaoversao1/`: versão inicial sem vetores.
 - `bolaoversao2/`: versão com vetores e validação de entrada.
+- `bolaoversao3/`: versão com POO e uso de alocação dinamica.
 - `output/`: arquivos executáveis gerados na compilação.
 
 ## Como executar
@@ -64,4 +70,12 @@ g++ .\bolaoversao1\bolaocopa1.cpp -o .\output\bolaocopa1.exe
 ```powershell
 g++ .\bolaoversao2\bolaocopa2.cpp -o .\bolaoversao2\output\bolaocopa2.exe
 .\bolaoversao2\output\bolaocopa2.exe
+```
+
+
+### Versão 3
+
+```powershell
+g++ .\bolaoversao3\bolaocopa3.cpp -o .\bolaoversao3\output\bolaocopa3.exe
+.\bolaoversao3\output\bolaocopa3.exe
 ```
