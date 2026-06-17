@@ -83,7 +83,7 @@ int main() {
     bool pontosCalculados = false;
 
     while (opcao != 5) {
-        cout << "\n================= MENU BOLÃO 2026 =================";
+        cout << "\n================= MENU BOLAO 2026 =================";
         cout << "\n1. Cadastrar resultados dos jogos";
         cout << "\n2. Cadastrar palpites dos apostadores";
         cout << "\n3. Calcular pontuacao";
